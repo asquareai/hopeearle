@@ -1,0 +1,683 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hope Earle - News & Knowledge</title>
+    <!-- core CSS -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/Hope-Earle.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Image/LOGO.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/portBox.slimscroll.min.js"></script>
+    <link href="css/portBox.css" rel="stylesheet" />
+    <script src="js/portBox.js"></script>
+    <script>
+        $(document).ready(function () {
+            //var leftV= ($(window).width() / 2) - ($('.dasBoard').width() / 2) ;
+
+            //$('.dasBoard').css("left", leftV + 'px ! important');
+            if ($(window).width() < 500) {
+
+                $('.algcenter').removeClass('algcenter');
+            }
+
+
+            setTimeout(function () {
+
+                $("body").css("background", "#fff");
+                $("#main-slider").removeClass("hite");
+            }, 100);
+            $(window).resize(function () {
+                if ($(window).width() < 500) {
+
+                    $('.algcenter').removeClass('algcenter');
+
+                }
+
+                //var leftV = ($(window).width() / 2) - ($('.dasBoard').width() / 2);
+
+                //$('.dasBoard').css("left", leftV + 'px ! important');
+
+            });
+
+        });
+
+    </script>
+    <style>
+        .custom-bullet li {
+            font-size: 14px;
+            line-height: 1.428571429;
+            margin: 0 0 14px 0;
+            padding: 0 0 0 26px;
+            background: url(Image/arrow.png) 0 0px no-repeat;
+            list-style: none;
+            width: 20px;
+            height: 20px;
+        }
+
+        #main-slider .item {
+            height: 407px !important;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        .logoBak {
+            margin-left: 288px;
+            margin-top: -26px !important;
+            max-width: 86%;
+            /* background: linear-gradient(to right, hsla(0, 0%, 100%, 0.59) 0%,hsla(0, 0%, 100%, 0.59) 100%); */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96ffffff', endColorstr='#96ffffff',GradientType=1 );
+            padding: 95px;
+            border-radius: 10px;
+        }
+
+        .dasBoard {
+            width: 564px;
+            position: absolute;
+            top: 128px !important;
+            left: 415px;
+            color: white !important;
+        }
+
+        #portfolios {
+            padding-top: 50px !important;
+            background: #f5f5f5;
+            padding-bottom: 10px !important;
+        }
+
+        #Mergers {
+            background: #003851;
+        }
+
+        .Client-image {
+            max-width: 100%;
+            width: 800px;
+            margin: auto;
+        }
+
+            .Client-image::after {
+                display: block;
+                position: relative;
+                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+                margin-top: -150px;
+                height: 150px;
+                width: 100%;
+                content: '';
+            }
+
+
+
+        .folio-overview {
+            display: none;
+        }
+
+            .folio-overview:hover {
+                display: block;
+            }
+
+
+
+        #ExpertiseSecCls {
+            background: #ffffff;
+            padding: 50px;
+            border: 1px solid hsla(60, 2%, 13%, 0.18);
+        }
+
+        .ExBorderRadius {
+            text-align: center;
+            border-radius: 308px;
+            padding: 10px 0;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: absolute;
+            width: 116px;
+            border: 1px solid hsla(60, 2%, 13%, 0.18);
+        }
+
+
+
+
+        .EXImgsize {
+            width: 50px;
+        }
+
+        .ExpertCls:hover {
+            border: 1px !important;
+            border-color: #808080 !important;
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        }
+
+        .Justify {
+            text-align: justify;
+        }
+
+        .Philocls {
+            background-color: hsl(207, 40%, 27%);
+            position: relative;
+            top: -139px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            height: 554px;
+            border-radius: 10px;
+        }
+
+        .tab1 {
+            text-align: left;
+            padding: 5px;
+            font-size: 18px;
+            border-bottom: 2px solid #e1e1e1;
+            margin-bottom: 30px;
+            /*cursor: pointer;*/
+        }
+
+        .tab {
+            text-align: left;
+            padding: 5px;
+            font-size: 18px;
+            border-bottom: 2px solid #e1e1e1;
+            margin-bottom: 30px;
+            /*cursor: pointer;*/
+        }
+
+        .hite {
+            height: 700px;
+            background-color: #626264;
+        }
+    </style>
+    <style>
+        .service-icon {
+            border-radius: 4px;
+            color: #fff;
+            display: inline-block;
+            font-size: 36px;
+            height: 90px;
+            line-height: 90px;
+            width: 90px;
+            -webkit-transition: background-color 0.2s ease;
+            transition: background-color 0.2s ease;
+        }
+
+
+        .our-services .col-sm-4 {
+            border-right: 1px solid #f2f2f2;
+            border-bottom: 1px solid #f2f2f2;
+            padding-bottom: 50px;
+        }
+
+            .our-services .col-sm-4:nth-child(1),
+            .our-services .col-sm-4:nth-child(2),
+            .our-services .col-sm-4:nth-child(3),
+            .our-services .col-sm-4:nth-child(4),
+            .our-services .col-sm-4:nth-child(5),
+            .our-services .col-sm-4:nth-child(6) {
+                border-bottom: 0;
+                padding-top: 30px;
+            }
+
+            .our-services .col-sm-4:nth-child(3),
+            .our-services .col-sm-4:nth-child(6) {
+                border-right: 0;
+            }
+
+        .service-info h3 {
+            margin-top: 35px;
+        }
+
+        #main-menu.navbar-default .navbar-nav > li:after {
+            display: block;
+            content: '';
+            border-bottom: solid 3px #0d455c;
+            transform: scaleX(0);
+            transition: transform 250ms ease-in-out;
+            position: relative;
+            top: -10px;
+        }
+
+        .ram:active {
+            color: #1ab78d !important;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12pt;
+        }
+
+        /*.service-icon,
+        a:hover {
+            background-color: #1ab78d;
+        }*/
+    </style>
+
+
+    <!--Calender CSS-->
+    <style>
+        body {
+            font-family: "Helvetica Neue Bold", arial, helvetica, sans-serif;
+            font-size: 100%;
+            /*margin: 10px;*/
+            color: #333;
+            background-color: #cecece;
+        }
+
+        h1 {
+            margin: 0;
+            font-weight: normal;
+        }
+
+        time.icon {
+            border: 1px solid hsl(0, 0%, 50%) !important;
+            font-size: 1em; /* change icon size */
+            display: block;
+            position: relative;
+            width: 4em;
+            height: 4em;
+            background-color: #fff;
+            /*margin: 2em auto;*/
+            border-radius: 0.6em;
+            box-shadow: 0 2px 0 #bdbdbd;
+            /*box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;*/
+            overflow: hidden;
+            -webkit-backface-visibility: hidden;
+            -webkit-transform: rotate(0deg) skewY(0deg);
+            -webkit-transform-origin: 50% 10%;
+            transform-origin: 50% 10%;
+        }
+
+            time.icon * {
+                display: block;
+                width: 100%;
+                font-size: 0.8em;
+                font-weight: bold;
+                font-style: normal;
+                text-align: center;
+            }
+
+            time.icon strong {
+                position: absolute;
+                top: 0;
+                padding: 0.4em 0;
+                color: #fff;
+                background-color: hsl(198, 74%, 21%);
+                border-bottom: 1px dashed hsl(198, 74%, 21%);
+                /*box-shadow: 0 2px 0 #8da8b6;*/
+                /*background-color: #fd9f1b;
+                border-bottom: 1px dashed #f37302;
+                box-shadow: 0 2px 0 #fd9f1b;*/
+            }
+
+            time.icon em {
+                position: absolute;
+                bottom: 0.3em;
+                color: #fd9f1b;
+            }
+
+            time.icon span {
+                width: 100%;
+                font-size: 1.1em;
+                letter-spacing: -0.05em;
+                padding-top: 1.8em;
+                color: hsl(164, 71%, 42%);
+                /*width: 100%;
+                font-size: 2.8em;
+                letter-spacing: -0.05em;
+                padding-top: 0.8em;
+                color: #2f2f2f;*/
+            }
+
+        /*time.icon:hover, time.icon:focus {
+                -webkit-animation: swing 0.6s ease-out;
+                animation: swing 0.6s ease-out;
+            }*/
+
+        @-webkit-keyframes swing {
+            0% {
+                -webkit-transform: rotate(0deg) skewY(0deg);
+            }
+
+            20% {
+                -webkit-transform: rotate(12deg) skewY(4deg);
+            }
+
+            60% {
+                -webkit-transform: rotate(-9deg) skewY(-3deg);
+            }
+
+            80% {
+                -webkit-transform: rotate(6deg) skewY(-2deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(0deg) skewY(0deg);
+            }
+        }
+
+        @keyframes swing {
+            0% {
+                transform: rotate(0deg) skewY(0deg);
+            }
+
+            20% {
+                transform: rotate(12deg) skewY(4deg);
+            }
+
+            60% {
+                transform: rotate(-9deg) skewY(-3deg);
+            }
+
+            80% {
+                transform: rotate(6deg) skewY(-2deg);
+            }
+
+            100% {
+                transform: rotate(0deg) skewY(0deg);
+            }
+        }
+    </style>
+
+    <!--Calender CSS-->
+
+</head><!--/head-->
+<body id="home" class="homepage" style="background: #f4f4f4;">
+
+    <div class="loader-icon"><img src=Image/Gif/loading.gif class=loader style="width:100px" alt=""></div>
+
+    <header id=header>
+        <nav class="navbar navbar-default navbar-fixed-top" id="main-menu" style="background-color: hsla(0, 0%, 100%, 0.9); border-bottom-left-radius: 1em; border-bottom-right-radius: 1em; box-shadow: none !important; border: 1px solid hsla(0, 0%, 0%, 0.4) ;" id=main-menu role=banner>
+
+            <div id="TopHeight" style="">
+                <div class="row" style="">
+                    <div class="col-sm-4  algcenter MobposView">
+
+
+                        <a href="mailto:mail@hopeearle.com.au"><img class="imgsize" src="Image/Icon/mail.png" /> &nbsp;<span class="topFontCSS"><u>mail@hopeearle.com.au</u></span>  </a>
+                    </div>
+                    <div class="col-sm-4  col-xs-8 algcenter">
+                        <img class="imgsize" style="width:12px;" src="Image/Icon/phone.png" /> &nbsp;<span class="topFontCSS"><a class="Mouseover" href="tel:+61 3 9600 3330"> <u>+61 3 9600 3330</u></a></span>
+                    </div>
+                    <div class="col-sm-4  col-xs-4 algcenter MobposView1">
+                        <a href="https://www.facebook.com/hope.earle.lawyers" target="_blank"><img style="width: 9px; margin-top: -4px; " src="Image/Icon/fac.png" /></a> &nbsp;&nbsp;
+                        <a href="https://twitter.com/HopeEarle" target="_blank"><img class="imgsize" src="Image/Icon/twit.png" /></a> &nbsp;&nbsp;
+                        <a href="https://goo.gl/c9V7ZK" target="_blank"><img class="imgsize" src="Image/Icon/LinkedIn.png" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=container>
+                <div class=navbar-header>
+                    <button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse type=button>
+                        <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span>
+                        <span class=icon-bar></span> <span class=icon-bar></span>
+                    </button>
+                    <a href=index.html class=navbar-brand><img src=Image/LOGO.png class=logoimg alt=logo></a>
+                </div>
+                <!--<div class="collapse navbar-collapse navbar-left">
+                    <ul class="nav navbar-nav"></ul>
+                </div>-->
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav ">
+                        <li class="scroll  home1_link">
+                            <a href="index.html" class="scr"><b>Home</b></a>
+                        </li>
+                        <li class="scroll home1_link">
+                            <a href=index.html#portfolio class=scr><b>Philosophy</b></a>
+                        </li>
+                        <li>
+                            <a href="index.html#ExpertiseSecCls" class="scr "><b>Expertise</b></a>
+
+                        </li>
+
+                        <li class="scroll career get-in-touch1_link"><a href=index.html#PeopleContent class="scr career"><b>People</b></a></li>
+                        <li class="scroll career get-in-touch1_link"><a href="News.html" class="scr sub-menuNews activelink"><b>News</b></a></li>
+                        <li class="scroll contact get-in-touch_link"><a href="Contact.aspx" class="scr contact"><b>Contact</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id=main-slider class=hite>
+        <button value="News & Knowledge" style="background-color: #1ab68e"></button>
+        <div style="position:relative">
+            <div class=item style="background-image: url(Image/255.jpg)">
+            </div>
+        </div>
+        <div style="position:absolute;top:0px;left:0px;bottom:0px;right:0px;">
+            <div style="width: 50%; min-width: 300px; padding: 30px; margin-left: auto; margin-right: auto; background: url('Image/RECT2.png') no-repeat;background-size:100% 100%; margin-top: 170px;text-align:center;color:#fff;position:relative;" id="bannerText">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <span class="DassBFontclr1">News & Knowledge</span>
+                        <!--<span class="DassBFontclr1">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam sed do eiusmod tempor incididunt ut labore</span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="col-sm-12" id="News1">
+                <form class="navbar-form" role="search">
+                    <div class="input-group add-on searchAdj">
+                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class=""></i>Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="container" style="">
+            <div class="col-sm-9" >
+                <div id="News1" class="col-sm-12">
+                    <div class="row">
+                        <p class="titileHeadSubPage">News & Knowledge</p>
+                    </div>
+                    <div class="row">
+                        <div class="row" >
+                            <div class="col-sm-9">
+                                <span class="NewsHeadSubPage">ESTABLISHING A CORPORATION IN INDIA</span>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <div>
+                                    <p class="Posteddate">Posted on  22 May, 2017 10:16 AM </p>
+                                </div>
+                            </div>
+                        </div>
+                        <p id="News2">If you are looking to start or expand your business in India, one of the key decisions to be made is whether your business will be run through a foreign entity or a local (Indian) entity.  From a taxation, operational, compliance and employment perspective, quite often it is beneficial to use a local entity to operate the business as opposed to an off-shore entity, which is generally subject to additional legal requirements.</p>
+                        <button type="button" class="btn readbtn" style="margin-bottom: 40px;">Read more</button>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <p class="NewsHeadSubPage">A QUICK GUIDE TO PARENTAL LEAVE</p>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <p class="Posteddate">Posted on  22 May, 2017 10:16 AM </p>
+                            </div>
+                        </div>
+                        <p>Parental leave is governed by the Fair Work Act 2009 (FWA), the Paid Parental Leave Act 2010 (PPLA) and relevant Awards, Workplace Agreement and/or Employment Contracts.</p>
+                        <button type="button" class="btn readbtn" style="margin-bottom: 40px;">Read more</button>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <span class="NewsHeadSubPage">Continue for each Hope Earle article</span>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <p class="Posteddate">Posted on  22 May, 2017 10:16 AM </p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn readbtn" style="margin-bottom: 40px;">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="row" style="margin-top:50px">
+                            <div class="col-sm-4 col-xs-4">
+                                <time datetime="2017-05-22" class="icon">
+                                    <!--<em>September</em>-->
+                                    <strong>May</strong>
+                                    <span>22</span>
+                                </time>
+
+                                <!--<div style="text-align:center; border-color: #626264; border-style: groove; "><h4>May<br />22 </h4> </div>-->
+                            </div>
+                            <div class="col-sm-8 col-xs-8" style="padding-left: 0px;">
+                                <p>Establishing a Corporation in India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="row" style="margin-top:50px">
+                            <div class="col-sm-4 col-xs-4">
+                                <time datetime="2017-05-22" class="icon">
+                                    <!--<em>Saturday</em>-->
+                                    <strong>May</strong>
+                                    <span>22</span>
+                                </time>
+
+                                <!--<div style="text-align:center; border-color: #626264; border-style: groove; "><h4>May<br />22 </h4> </div>-->
+                            </div>
+                            <div class="col-sm-8 col-xs-8" style="padding-left: 0px;">
+                                <p>A Quick Guide to Parental Leave </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <footer id="footer" style="background-color: #08212b; ">
+        <div class=container>
+            <div class=row>
+                <div class="col-sm-3">
+                    <div><img src="Image/LOGO_white.png" width="110px;" /></div><br /> <div> <div class="row"> <div class="col-sm-12"> <span class="footFontclrcol1">Liability Limited by a scheme</span> </div></div><div class="row"> <div class="col-sm-12"> <span class="footFontclrcol1">approved under Professional</span> </div></div><div class="row"> <div class="col-sm-12" style="color:gray"> <span class="footFontclrcol1">Standards Legislation</span> </div></div></div><br /> <br />
+                    <div><span class="footFontclrcol1">©2017 Hope Earle</span></div>
+                </div>
+                <br />
+                <div class="col-sm-3">
+                    <span class="footFontclr">RECENT NEWS</span>
+                    <div class="row" style="margin-top:22px">
+                        <a href="News.html#News1">
+                            <div class="col-sm-3 col-xs-3">
+                                <time datetime="2017-05-22" class="icon"> <strong>May</strong> <span>22</span> </time>
+                            </div>
+                            <div class="col-sm-8 col-xs-8" style=" padding-left: 0px;"> <p>Establishing a Corporation in India</p></div>
+                        </a>
+                    </div><div class="row" style="margin-top:10px">
+                        <a href="News.html#News2">
+                            <div class="col-sm-3 col-xs-3">
+                                <time datetime="2017-05-22" class="icon">
+                                    <strong>May</strong> <span>22</span>
+                                </time>
+                            </div><div class="col-sm-8 col-xs-8" style=" padding-left: 0px;"> <p>A Quick Guide to Parental Leave </p></div>
+                        </a>
+                    </div><br />
+                </div>
+                <div class="col-sm-3">
+                    <span class="footFontclr"> LINKS </span> <br /><br /> <div class="row"> <div class="col-sm-6"> <div><span style="color: #35c486" class="fa fa-angle-right "></span>&nbsp;<a href="index.html#"><span class="footFontclrcol2">Home</span></a></div></div></div><div class="row"> <div class="col-sm-6"> <div><span style="color: #35c486" class="fa fa-angle-right "></span>&nbsp;<a href="index.html#ExpertiseSecCls"><span class="footFontclrcol2">Expertise</span> </a></div></div><div class="col-sm-6"> </div></div><div class="row">
+                        <div class="col-sm-6">
+                            <div><span style="color: #35c486" class="fa fa-angle-right "></span>&nbsp;<a href="index.html#portfolio"><span class="footFontclrcol2">Philosophy</span></a></div>
+                        </div><div class="col-sm-6" style=""> </div>
+                    </div><div class="row"> <div class="col-sm-10"> <div><span style="color: #35c486" class="fa fa-angle-right "></span>&nbsp;<a href="News.html"><span class="footFontclrcol2">News & Knowledge</span></a></div></div><div class="col-sm-2"> </div></div><div class="row"> <div class="col-sm-6"> <div><span style="color: #35c486" class="fa fa-angle-right "></span>&nbsp;<a href="index.html#PeopleContent"><span class="footFontclrcol2">People</span></a> </div></div></div><div class="row"> <div class="col-sm-6"> <div><span style="color: #35c486" class="fa fa-angle-right "></span>&nbsp;<a href="Contact.aspx"><span class="footFontclrcol2">Contact</span></a></div></div><br /></div>
+                </div>
+
+                <div class="col-sm-3">
+                    <span class="footFontclr"> CONTACT </span> <br /><br /> <div class="row">
+                        <div class="col-sm-2 col-xs-1"> <span class="glyphicon glyphicon-map-marker FOOTERCLS" style="margin-top:2px;"></span> </div>
+                        <div class="col-sm-9 col-xs-11">
+                            <span class="footFontclrcol2"> Level 4, 406 Collins Street, </span>
+                            <span class="footFontclrcol2"> Melbourne Victoria 3000, </span> <span class="footFontclrcol2"> Australia. </span>
+                        </div>
+                    </div><br /> <div class="row">
+                        <div class="col-sm-2 col-xs-1">
+                            <span class="glyphicon glyphicon-earphone FOOTERCLS"></span>
+                        </div><div class="col-sm-9 col-xs-11">
+                            <span class="footFontclrcol2">
+                                <a href="tel:+61 3 9600 3330"><u> +61 3 9600 3330</u></a>
+                            </span>
+                        </div>
+                    </div><br /> <div class="row">
+                        <div class="col-sm-2 col-xs-1">
+                            <span class="glyphicon glyphicon-envelope FOOTERCLS"></span>
+                        </div><div class="col-sm-9 col-xs-11">
+                            <span class="footFontclrcol2"> <a href="mailto:mail@hopeearle.com.au"> <u>mail@hopeearle.com.au</u></a> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+    <script src=js/jquery-1.10.2.min.js></script>
+    <script src=js/jquery-ui-1.10.3.custom.min.js></script>
+    <script src=js/portBox.slimscroll.min.js></script>
+    <script src=js/portBox.js></script>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/MainJs.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".loader-icon").hide()
+            }, 2e3),
+            $("#BigQClk").click(function () {
+                $(this).find(".minus").toggle(), $(this).find(".plus").toggle(), $(".imageAppend").attr("src", "images/main-feature.png")
+            }), $(".list-group-item").click(function () { $(this).find("a").trigger("click"); var i = $(this).find("a").text(); $("#portfolio-content").text(i), $(".portBox").hide(), $(".portBox-overlay").hide() }), $(".list-group-item a").click(function () { var i = $(this).text(); $("#portfolio-content").text(i), $(".portBox").hide(), $(".portBox-overlay").hide() }), $("#KeyClk").click(function () { $(".imageAppend").attr("src", "images/eap-mac-iphone-ipad-mockup.png") }), $("#WhoClk").click(function () { $(".imageAppend").attr("src", "images/responsive_design_mood_factory.png") })
+        })</script>
+
+
+</body>
+</html>

@@ -1,0 +1,504 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hope Earle-News-Establishing a corporation in india</title>
+    <!-- core CSS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108401788-1"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/animate.min.css" rel="stylesheet">
+    <link href="../../css/owl.carousel.css" rel="stylesheet">
+    <link href="../../css/owl.transitions.css" rel="stylesheet">
+    <link href="../../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/responsive.css" rel="stylesheet">
+    <link href="../../css/Hope-Earle.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../../Image/LOGO.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="../../js/portBox.slimscroll.min.js"></script>
+    <link href="../../css/portBox.css" rel="stylesheet" />
+    <script src="../../js/portBox.js"></script>
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '175136539706743');
+        fbq('track', 'PageView');
+        fbq('track', 'ViewContent');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=175136539706743&ev=PageView&noscript=1" />
+    </noscript>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108401788-1');
+        $(document).ready(function () {
+            //var leftV= ($(window).width() / 2) - ($('.dasBoard').width() / 2) ;
+
+            //$('.dasBoard').css("left", leftV + 'px ! important');
+            if ($(window).width() < 500) {
+
+                $('.algcenter').removeClass('algcenter');
+            }
+
+
+            setTimeout(function () {
+
+                $("body").css("background", "#fff");
+                $("#main-slider").removeClass("hite");
+            }, 100);
+            $(window).resize(function () {
+                if ($(window).width() < 500) {
+
+                    $('.algcenter').removeClass('algcenter');
+
+                }
+
+                //var leftV = ($(window).width() / 2) - ($('.dasBoard').width() / 2);
+
+                //$('.dasBoard').css("left", leftV + 'px ! important');
+
+            });
+
+			
+			
+			
+			
+        });
+
+    </script>
+    <style>
+	
+.pager li>a, .pager li>span {
+    
+    background-color: #1ab78d !important;
+    color: white!important;
+}
+
+.pager li>a:hover{
+background-color: #0d455d !important;
+
+}	
+	
+	
+	
+	
+	.RcntNewsP{
+font-size:13pt!important; 
+font-weight: bold;
+color:#333 !important;
+}
+
+.RcntNewsSP
+{
+    font-family: corporate_s_bqregular,sans-serif;
+    text-align: justify!important;
+    font-size: 9pt!important;
+    line-height: 15px;
+}
+        .p-mail {
+            color: white !important;
+        }
+
+        .Client-image_People {
+            max-width: 76%;
+            width: 800px;
+            margin: auto;
+        }
+
+            .Client-image_People::after {
+                display: block;
+                position: relative;
+                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+                margin-top: -150px;
+                height: 150px;
+                width: 100%;
+                content: '';
+            }
+
+
+
+        .folio-overview {
+            display: none;
+        }
+
+            .folio-overview:hover {
+                display: block;
+            }
+
+
+
+        #ExpertiseSecCls {
+            background: #ffffff;
+            padding: 50px;
+            border: 1px solid hsla(60, 2%, 13%, 0.18);
+        }
+
+        .ExBorderRadius {
+            text-align: center;
+            border-radius: 308px;
+            padding: 10px 0;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: absolute;
+            width: 116px;
+            border: 1px solid hsla(60, 2%, 13%, 0.18);
+        }
+
+        .titileHead {
+            font-family: Calibri;
+            text-align: left;
+            font-size: 30pt;
+            color: #0e455b;
+        }
+
+
+        .EXImgsize {
+            width: 50px;
+        }
+
+        .ExpertCls:hover {
+            border: 1px !important;
+            border-color: #808080 !important;
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        }
+
+        .Justify {
+            text-align: justify;
+        }
+
+        .Philocls {
+            background-color: hsl(207, 40%, 27%);
+            position: relative;
+            top: -139px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            height: 554px;
+            border-radius: 10px;
+        }
+
+        .tab1 {
+            text-align: left;
+            padding: 5px;
+            font-size: 18px;
+            border-bottom: 2px solid #e1e1e1;
+            margin-bottom: 30px;
+            /*cursor: pointer;*/
+        }
+
+        .tab {
+            text-align: left;
+            padding: 5px;
+            font-size: 18px;
+            border-bottom: 2px solid #e1e1e1;
+            margin-bottom: 30px;
+            /*cursor: pointer;*/
+        }
+
+        .hite {
+            height: 700px;
+            background-color: #626264;
+        }
+    </style>
+    <style>
+	
+	#NewsSub{
+	    padding-top: 115px!important;
+	
+	}
+	
+        .service-icon {
+            border-radius: 4px;
+            color: #fff;
+            display: inline-block;
+            font-size: 36px;
+            height: 90px;
+            line-height: 90px;
+            width: 90px;
+            -webkit-transition: background-color 0.2s ease;
+            transition: background-color 0.2s ease;
+        }
+
+
+        .our-services .col-sm-4 {
+            border-right: 1px solid #f2f2f2;
+            border-bottom: 1px solid #f2f2f2;
+            padding-bottom: 50px;
+        }
+
+            .our-services .col-sm-4:nth-child(1),
+            .our-services .col-sm-4:nth-child(2),
+            .our-services .col-sm-4:nth-child(3),
+            .our-services .col-sm-4:nth-child(4),
+            .our-services .col-sm-4:nth-child(5),
+            .our-services .col-sm-4:nth-child(6) {
+                border-bottom: 0;
+                padding-top: 30px;
+            }
+
+            .our-services .col-sm-4:nth-child(3),
+            .our-services .col-sm-4:nth-child(6) {
+                border-right: 0;
+            }
+
+        .service-info h3 {
+            margin-top: 35px;
+        }
+
+        /*#main-menu.navbar-default .navbar-nav > li:after {
+            display: block;
+            content: '';
+            border-bottom: solid 3px #0d455c;
+            transform: scaleX(0);
+            transition: transform 250ms ease-in-out;
+            position: relative;
+            top: -10px;
+        }*/
+
+        .ram:active {
+            color: #1ab78d !important;
+        }
+
+
+        /*.service-icon,
+        a:hover {
+            background-color: #1ab78d;
+        }*/
+
+
+
+        .headerLine {
+            background-color: #1ab78d;
+            padding:8px;
+            color:white;
+            font-size:18pt;
+            margin-bottom:15px;
+            text-align:center;
+        }
+
+        .subHead {
+            
+            color: #000000;
+            font-size:20pt;
+        }
+
+        .subHead2 {
+            color: #000000;
+            font-size: 20pt;
+        font-weight:bold;
+            
+            }
+
+        /*.lgBorders {
+            border: 1px solid #b5b5b5;
+            padding: 20px;
+        }*/
+
+
+
+
+    </style>
+</head><!--/head-->
+<body id="home" class="homepage" style="background: #f4f4f4;">
+
+    <div class="loader-icon"><img src=../../Image/Gif/loading.gif class=loader style="width:100px" alt=""></div>
+
+    <header id=header>
+        <nav class="navbar navbar-default navbar-fixed-top" id="main-menu" style="background-color: hsla(0, 0%, 100%, 0.8); border-bottom-left-radius: 1em; border-bottom-right-radius: 1em; box-shadow: none !important; border: 1px solid hsla(0, 0%, 0%, 0.4) ;" id=main-menu role=banner>
+
+            <div id="TopHeight" style="">
+                <div class="row" style="">
+                    <div class="col-sm-4  algcenter MobposView" >
+
+
+                        <a href="mailto:mail@hopeearle.com.au"><img class="imgsize" src="../../Image/Icon/mail.png" /> &nbsp;<span class="topFontCSS"><u>mail@hopeearle.com.au</u></span>  </a>
+                    </div>
+                    <div class="col-sm-4  col-xs-8 algcenter">
+                        <img class="imgsize" style="width:12px;" src="../../Image/Icon/phone.png" /> &nbsp;<span class="topFontCSS"><a class="Mouseover" href="tel:+61 3 9600 3330"> <u>+61 3 9600 3330</u></a></span>
+                    </div>
+                    <div class="col-sm-4  col-xs-4 algcenter MobposView1">
+                        <a href="https://www.facebook.com/hope.earle.lawyers" target="_blank"><img style="width: 9px; margin-top: -4px; " src="../../Image/Icon/fac.png" /></a> &nbsp;&nbsp;
+                        <a href="https://twitter.com/HopeEarle" target="_blank"><img class="imgsize" src="../../Image/Icon/twit.png" /></a> &nbsp;&nbsp;
+                        <a href="https://goo.gl/c9V7ZK" target="_blank"><img class="imgsize" src="../../Image/Icon/LinkedIn.png" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=container>
+                <div class=navbar-header>
+                    <button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse type=button>
+                        <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span>
+                        <span class=icon-bar></span> <span class=icon-bar></span>
+                    </button>
+                    <a href=../../index.html class=navbar-brand><img src="../../Image/LOGO.png" class=logoimg alt=logo></a>
+                </div>
+                <!--<div class="collapse navbar-collapse navbar-left">
+                    <ul class="nav navbar-nav"></ul>
+                </div>-->
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav ">
+                        <li class="scroll active home1_link">
+                            <a href=../../index.html class="scr ram indexclass"><b>Home</b></a>
+                        </li>
+                        <li class="scroll home1_link">
+                            <a href=../../index.html#portfolio class=scr><b>Philosophy</b></a>
+                        </li>
+                        <li class="scroll home1_link">
+                            <a href="../../index.html#ExpertiseSecCls" class=scr><b>Expertise</b></a>
+
+                        </li>
+
+                        <li class="scroll career get-in-touch1_link"><a href=../../index.html#PeopleContent class="scr career"><b>People</b></a></li>
+                        <li class="scroll career get-in-touch1_link"><a href="../../News.html" class="scr sub-menuNews activelink"><b>News</b></a></li>
+                        <li class="scroll contact get-in-touch_link"><a href="../../Contact.aspx" class="scr contact"><b>Contact</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+	
+	
+	
+	
+
+    <section id="NewsSub">
+	<!-- <section>
+        <div class="container">
+            <div class="col-sm-12" id="News1">
+                <form class="navbar-form" role="search">
+                    <div class="input-group add-on searchAdj">
+                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class=""></i>Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> -->
+        <div class="container">						
+            <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            </div>
+            <div style="padding-top:20px; margin-bottom:50px;">
+                <div class="row">
+				<div class="col-sm-12" style="padding:0px;">
+                
+                    <div class="col-md-12 col-xs-12 lgBorders">
+
+
+                        <div class="headerLine">
+                            Business Law Update: Defamation & Online Comment                                                
+                        </div>
+
+                        <img style="width:100%" class="img-responsive" src="Article Photo_Defamation.jpg" />
+                        
+                        <p class="subHead"><i>Business Law Update: Defamation & Online Comment                                                </i></p>
+
+                        
+                        <p style="font-weight:600">Defamation on Business Facebook Pages: User Comments</p>
+						<p style="font-weight:600">Do people post comments on your businesses Facebook page? You could be liable for their defamatory comments.</p>
+						
+
+                        <p>Many businesses use online platforms such as Facebook to promote their business. Some have a comments section where their customers can make comments about their products. If users in response to your content make defamatory comments on your page you may be liable for the publication of the comments.</p>
+                        <p class="peoplecontenttxt">publication of the comments.
+This issue has just been determined by the High Court of Australia in the case of media companies which maintain a public Facebook page on which they posted content relating to news stories and provided hyperlinks to those stories on their websites. A number of third-party Facebook users responded to a particular story with comments that were alleged to be defamatory. Proceedings were brought against the media companies alleging they were liable for defamation as the publishers of those comments.
+</p>
+
+                        <p class="peoplecontenttxt">The High Court of Australia has found that the media companies were the publishers of the third-party Facebook user comments. The Court decided that by the creation of a public Facebook page and the posting of content on that page, they facilitated, encouraged and thereby assisted the publication of comments from third-party Facebook users. The media companies were therefore publishers of the third-party comments.</p>
+						
+						<p class="peoplecontenttxt">If your business has a Facebook page, or other similar site, and it allows users to make comments, your business may also be liable as the publisher of the comments and you should immediately review your page to assess its content and the ability for others to post comments on your page.</p>
+
+						
+						
+                       
+                        
+                        <div>
+                           
+                            <div style="margin-top:50px;">
+                            <p class="peoplecontenttxt">Please contact us if you wish to discuss this, or any commercial legal matter, in further detail.</p>
+                            
+                            
+							<p class="peoplecontenttxt">Hope Earle provides legal advice to a range of business operators, from small enterprises to large multinational companies.  If you have any queries, please feel free to contact us at +61 3 9600 3330. </P>
+                            <div style="margin-top:15px;font-weight:bold;" class="postDate">Posted on 20 July 2021</div>
+                            </div>
+                        <div style="margin-top:20px;font-style:italic;">Important Disclaimer - This publication is general in nature and is not intended to be, nor should be, considered as legal advice. For legal advice please contact Hope Earle Lawyers on +61 3 9600 3330.</div>
+                        </div>
+                    </div>		
+
+                   <div class="col-md-12 col-xs-12">                        
+                            <ul class="pager">
+                                <li class="previous"><a href="../29/Urgent_Family_Law_Matters_and_COVID.html">Read Previous News</a></li>
+                                <li><a href="../../News.html">News Main Page</a></li>
+								<li class="next"><a href="../31/defamation_article.html">Read Next News >></a></li>
+                            </ul>                        
+                    </div>
+
+											 									
+           	   								
+ 					</div>                                                   
+                </div>           					
+			</div>			
+			</div>
+    </section>
+
+
+    <div id="footerTemplate"></div>
+
+    <!--/#footer-->
+    <script src=../../js/jquery-1.10.2.min.js></script>
+    <script src=../../js/jquery-ui-1.10.3.custom.min.js></script>
+    <script src=../../js/portBox.slimscroll.min.js></script>
+    <script src=../../js/portBox.js></script>
+  
+
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- <script src="../../http://maps.google.com/maps/api/js?sensor=true"></script> -->
+    <script src="../../js/owl.carousel.min.js"></script>
+    <script src="../../js/mousescroll.js"></script>
+    <!-- <script src="../../js/smoothscroll.js"></script> -->
+    <script src="../../js/jquery.prettyPhoto.js"></script>
+    <script src="../../js/jquery.isotope.min.js"></script>
+    <script src="../../js/jquery.inview.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
+    <script src="../../js/NewsJs.js"></script>
+    <script src="../../js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#footerTemplate").load("../../footer.html");
+            setTimeout(function () {
+                $(".loader-icon").hide()
+            }, 2e3),
+            $("#BigQClk").click(function () {
+                $(this).find(".minus").toggle(), $(this).find(".plus").toggle(), $(".imageAppend").attr("src", "images/main-feature.png")
+            }), $(".list-group-item").click(function () { $(this).find("a").trigger("click"); var i = $(this).find("a").text(); $("#portfolio-content").text(i), $(".portBox").hide(), $(".portBox-overlay").hide() }), $(".list-group-item a").click(function () { var i = $(this).text(); $("#portfolio-content").text(i), $(".portBox").hide(), $(".portBox-overlay").hide() }), $("#KeyClk").click(function () { $(".imageAppend").attr("src", "images/eap-mac-iphone-ipad-mockup.png") }), $("#WhoClk").click(function () { $(".imageAppend").attr("src", "images/responsive_design_mood_factory.png") })
+        })</script>
+
+
+</body>
+</html>
